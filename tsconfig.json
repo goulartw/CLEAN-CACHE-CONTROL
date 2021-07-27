@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
    
-     "baseUrl": "src",                             /* Base directory to resolve non-absolute module names. */
+     "baseUrl": "src",                                                            
+     "rootDir": "src",
      "paths": {
-        "@/*":["*"]
-     },                                 /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
-     "rootDir": "src"                               /* List of root folders whose combined content represents the structure of the project at runtime. */    
+       "@/*":["*"]
+   },      
   }
 }
